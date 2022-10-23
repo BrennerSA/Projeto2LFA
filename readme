@@ -1,0 +1,10 @@
+Este projeto tem como objetivo simular um AFND(Automato finito não deterministico). Para sua implementação foi utilizada a linguagem python
+
+Seguindo o objetivo do projeto, precisamos pegar dados de input, sendo esses os estados, o alfabeto e a quantidade de transições
+
+em seguida é criado um hashmap para armazenar as transições que associam cada estado. por ser um AFND pode haver mais de uma transição com o mesmo caracter
+para cada estado
+
+nessa etapa do codigo é solicitado qual o estado inicial, seguido pelos estados finais e pelo conjunto de palavras a ser consumida pelo automato
+
+por fim o automato ira iterar sobre as palavras, consumindo caracter por caracter do input, e fazendo as transições e salvando essas transições em uma lista, onde ira ser verificado se os estados dessa lista são finais ou não para em seguida imprimir o caracter S ou N implicando a aceitação ou não aceitação da palavra.
